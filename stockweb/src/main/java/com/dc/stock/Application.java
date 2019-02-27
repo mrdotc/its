@@ -1,0 +1,20 @@
+package com.dc.stock;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.SpringBootConfiguration;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@SpringBootConfiguration
+@EnableAutoConfiguration
+public class Application {
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SpringApplication.run(Application.class, args);
+	}
+
+}
