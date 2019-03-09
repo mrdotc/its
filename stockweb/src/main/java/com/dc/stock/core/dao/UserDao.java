@@ -1,5 +1,12 @@
 package com.dc.stock.core.dao;
 
-public class UserDao {
+import java.util.List;
 
+import com.dc.stock.core.entity.User;
+
+public interface UserDao {
+
+	public List<User> getAllusers();
+	public User getUserById(String string);
+		
 }
