@@ -1,0 +1,12 @@
+spring:
+  mail:
+    host: 52.98.67.162
+    username: dmchan@hotmail.com
+    password: cxz@@520dm
+    port: 587
+    smtp:
+      auth: true
+      starttls:
+         enable: true
+         required: true
+    
